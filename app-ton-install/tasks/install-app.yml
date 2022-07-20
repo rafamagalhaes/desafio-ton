@@ -1,5 +1,0 @@
----
-  - name: Instalando App
-    script: "{{ role_path }}/scripts/install-app-ton.py"
-    tags:
-      - ton
