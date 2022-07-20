@@ -1,0 +1,7 @@
+- include_tasks: "{{ role_path }}/tasks/install-docker.yml"
+  tags:
+    - ton
+
+- include_tasks: "{{ role_path }}/tasks/install-app.yml"
+  tags:
+    - ton

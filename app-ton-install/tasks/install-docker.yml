@@ -1,0 +1,5 @@
+---
+  - name: Instalando Docker
+    script: "{{ role_path }}/scripts/install-docker.py"
+    tags:
+      - ton
